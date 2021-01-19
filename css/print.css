@@ -1,0 +1,12 @@
+@media print and (min-width: 500px) {
+
+.navigation {
+  display: none;
+}
+
+p {
+  orphans: 2;
+  widows: 2;
+}
+
+}
