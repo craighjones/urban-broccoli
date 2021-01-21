@@ -56,7 +56,7 @@ p {
 figcaption {
   font-weight: 800;
   line-height: 26px;
-  padding-bottom: 104px;
+  padding-bottom: 78px;
   padding-top: 13px;
   margin: 0;
 }
@@ -327,6 +327,10 @@ p a:hover {
   padding-bottom: 104px;
 }
 
+.baselineTopx1 {
+  padding-top: 26px;
+}
+
 .button-group {
   display: block;
 }
@@ -426,7 +430,23 @@ p a:hover {
 }
 
 .text-block {
-  margin-bottom: 78px
+  margin-bottom: 52px
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 
 
